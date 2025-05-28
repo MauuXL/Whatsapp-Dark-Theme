@@ -1,23 +1,33 @@
 {
-  "manifest_version": 3,
-  "name": "WhatsApp_Dark",
-  "version": "1.0.1",
-  "author": "MauuXL",
-  "permissions": ["storage"],
-  "action": {
-    "default_popup": "popup/popup.html",
-    "default_icon": "images/wad.png"
-  },
-  "icons": {
-    "128": "images/wad.png"
-  },
-  "content_scripts": [
-    {
-      "matches": ["https://web.whatsapp.com/*"],
-      "css": ["./css/content.css"],
-      "js": ["./scripts/content.js"],
-      "run_at": "document_end"
-    }
-  ],
-  "host_permissions": ["https://web.whatsapp.com/*"]
+    "manifest_version": 3,
+    "name": "WhatsApp_Dark",
+    "version": "2.0",
+    "author": "MauuXL",
+    "permissions": ["storage", "activeTab"],
+
+    "action": {
+        "default_popup": "popup/popup.html",
+        "default_icon": "images/wad.png"
+    },
+    "icons": {
+        "128": "images/wad.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://web.whatsapp.com/*"],
+            "css": [
+                "css/content.css",
+                "css/palette.css",
+                "css/dark.css",
+                "css/light.css"
+            ],
+            "js": [
+                "scripts/toggle.js",
+                "scripts/privacy.js",
+                "scripts/content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "host_permissions": ["https://web.whatsapp.com/*"]
 }

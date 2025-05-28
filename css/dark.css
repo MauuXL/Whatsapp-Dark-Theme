@@ -1,0 +1,195 @@
+.dark-theme {
+  /*Inicio de la aplicación*/
+  --WDS-app-wash: black !important;
+  --WDS-background-wash-inset: black !important;
+  --app-background: black !important;
+  --progress-background: #272727 !important;
+  --progress-primary: rgb(var(--acent-color)) !important;
+
+  /*Activar notificaciones*/
+  --butterbar-default-background: #272727 !important;
+  --butterbar-notification-icon: rgb(var(--acent-color)) !important;
+
+  /*Mensaje de instalar whatsapp de windows*/
+  --text-teal: rgb(var(--acent-color)) !important;
+
+  /*Barra de la izquierda*/
+  --navbar-background: black !important;
+  --unread-marker-background: rgb(var(--acent-color)) !important;
+  --panel-header-icon: rgb(var(--acent-color)) !important;
+
+  /*Lista de chats*/
+  --background-default-active: #272727 !important;
+  --background-default-hover: black !important;
+  --background-lighter: black !important;
+  --unread-timestamp: rgb(var(--acent-color)) !important;
+  --unread-marker-text: black !important;
+  --status-ring-unread: rgb(var(--acent-color)) !important;
+
+  --butterbar-connection-background: black !important;
+  --background-default: black !important;
+  --background-document-with-captions: black !important;
+  --button-primary: black !important;
+  --button-primary-destructive-color: black !important;
+  --button-primary-destructive-spinner-color: black !important;
+  --checkbox-mark: black !important;
+  --drawer-background: black !important;
+  --drawer-gallery-background: black !important;
+  --electron-deprecation-app-expired-header: black !important;
+  --location-cluster-background: black !important;
+  --modal-backdrop-solid: black !important;
+  --panel-background: black !important;
+  --popup-panel-background: black !important;
+  --product-thumb-background: black !important;
+  --poll-modal-background-color: black !important;
+  --search-container-background: black !important;
+  --search-input-container-background: black !important;
+  --search-input-container-background-active: black !important;
+  --startup-background: black !important;
+  --status-link-preview-title: black !important;
+  --voip-background: black !important;
+  --reactions-bubble-border: black !important;
+  --forward-caption-preview-content: black !important;
+  --skeleton-gradient-background-middle: black !important;
+  --compose-panel-background: black !important;
+  --intro-background: black !important;
+  --app-background: black !important;
+  --app-background-deeper: black !important;
+  --wallpaper-background: black !important;
+  --conversation-panel-background: black !important;
+  --overlay: black !important;
+  --shadow: black !important;
+  --status-background: black !important;
+  --tooltip-text: black !important;
+  --video-player-background: black !important;
+  --voip-background-deep: black !important;
+  --voip-alternative: black !important;
+  --panel-background-deeper: black !important;
+  --panel-background-hover: black !important;
+  --panel-background-lighter: black !important;
+  --drawer-background-deep: black !important;
+  --drawer-section-background: black !important;
+  --media-viewer-background: black !important;
+
+  /*Barra de filtros*/
+  --filters-container-background: black !important;
+  --filters-item-active-background: rgb(var(--acent-color)) !important;
+  --filters-item-active-color: black !important;
+  --filters-item-background: #272727 !important;
+
+  /*Chat*/
+
+  /*Color Barra de editar fuente*/
+  --input-floating-toolbar-background: black !important;
+
+  --panel-background-colored: black !important;
+  --panel-background-colored-deeper: black !important;
+  --panel-header-background: black !important;
+  --conversation-panel-background: rgba(39, 39, 39, 0) !important;
+  --rich-text-panel-background: black !important;
+  --compose-input-background: black !important;
+  --compose-input-border: black !important;
+  --background-default-rgb: black !important;
+  --media-editor-image-caption-input-background: #272727 !important;
+  --media-editor-document-caption-input-background: #272727 !important;
+  --button-round-background: #272727 !important;
+
+  /*Dia del mensaje*/
+  --system-message-background: #272727 !important;
+
+  --overlay-rgb: #272727 !important;
+
+  /*Barra de mensajes no leidos*/
+  --unread-bar-background: rgba(39, 39, 39, 0.6) !important;
+  --unread-background: rgba(0, 0, 0, 0) !important;
+
+  /*Mensajes enviados*/
+  --outgoing-background: black !important;
+  --outgoing-background-deeper: #272727 !important;
+  --poll-checkmark-sender: black !important;
+
+  /*Mensajes recibidos*/
+  --incoming-background: black !important;
+  --incoming-background-deeper: #272727 !important;
+
+  /*Ventana de información de contacto*/
+  --switch-button-checked-color: rgb(var(--acent-color)) !important;
+  --switch-track-checked-color: rgba(255, 255, 255, 0.8) !important;
+  --chat-marker-background: #272727 !important;
+  --thumb-border-active: #272727 !important;
+  --chat-info-drawer-thumb-background: #272727 !important;
+
+  /*Menu desplegable*/
+  --dropdown-background: black !important;
+  --dropdown-background-hover: #272727 !important;
+
+  /*panel de emojis*/
+  --reactions-panel-background-color: black !important;
+  --expressions-panel-active-icon-tab-background: #272727 !important;
+  --wds-teal-500: rgb(var(--acent-color)) !important;
+  --active-tab-marker: #272727 !important;
+  --sticker-button-background: #272727 !important;
+
+  /*Barra de emojis*/
+  --reactions-tray-background: black !important;
+  --reactions-picker-bg: #272727 !important;
+  --svg-gray-button: rgb(var(--acent-color)) !important;
+
+  /*Detalles de emojis en canales*/
+  --reactions-details-background: black !important;
+  --reactions-details-background-hover: #272727 !important;
+  --reactions-tray-active-round-background: rgb(var(--acent-color)) !important;
+
+  /*Selección de reenvio*/
+  --forward-caption-preview-background: black !important;
+  --forward-caption-preview-content: #272727 !important;
+  --checkbox-background: rgb(var(--acent-color)) !important;
+
+  /*Cuadro de eliminar*/
+  --modal-backdrop: rgba(39, 39, 39, 0.8) !important;
+  --modal-background: black !important;
+  --button-secondary: rgba(255, 255, 255, 0.6) !important;
+  --button-secondary-hover: rgb(var(--acent-color)) !important;
+
+  --button-reject-background: black !important;
+  --button-primary-background: rgb(var(--acent-color)) !important;
+  --button-primary-background-hover: #272727 !important;
+  --electron-deprecation-app-expired-window: black !important;
+  --media-gallery-thumb-background: black !important;
+
+  --input-hover-background: black !important;
+
+  --search-input-background: black !important;
+  --panel-input-background: black !important;
+  --ptt-draft-waveform-background-border: black !important;
+  --ptt-draft-waveform-background: black !important;
+
+  --icon-ack: rgb(var(--acent-color)) !important;
+  --intro-border: black !important;
+  --icon-bright-highlight: rgb(var(--acent-color)) !important;
+  --icon-search-back: rgb(var(--acent-color)) !important;
+
+  /*Bordes de historias no vistas y texto de recientes*/
+  --teal: rgb(var(--acent-color)) !important;
+
+  /*Boton de a quien enviar estado*/
+  --button-plain-background: black !important;
+  --button-plain-background-hover: #272727 !important;
+
+  /*Barra de votaciones*/
+  --poll-bar-fill-receiver: rgb(var(--acent-color)) !important;
+
+  --primary: rgb(var(--acent-color)) !important;
+
+  --ptt-ooc-background: black !important;
+
+  /*Color de audio recibido y escuchado*/
+  --ptt-green: rgb(var(--acent-color)) !important;
+  --ptt-blue: rgb(134, 150, 160) !important;
+
+  /*Mensaje flotante*/
+  --toast-background: #272727 !important;
+
+  /*Sombra de mensaje cuando abris en otra pestaña*/
+  --shadow-rgb: #272727 !important;
+}

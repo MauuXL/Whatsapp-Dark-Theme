@@ -1,0 +1,97 @@
+.light-theme {
+  --primary: rgb(var(--acent-color)) !important;
+  --icon: rgb(var(--acent-color)) !important;
+  --white-rgb: rgb(var(--acent-color)) !important;
+  --black-rgb: rgb(var(--acent-color)) !important;
+  /*Inicio de la aplicación*/
+  --WDS-background-wash-inset: white !important;
+  --WDS-content-default: rgb(var(--acent-color)) !important;
+  --startup-icon: var(--accent-color) !important;
+  --progress-background: rgba(0, 0, 0, 0.1) !important;
+  --progress-primary: rgb(var(--acent-color)) !important;
+  --WDS-content-deemphasized: rgb(var(--acent-color)) !important;
+  /* Titulo */
+  --intro-background: white !important;
+  --primary-title: rgb(var(--acent-color)) !important;
+  --secondary-lighter: rgb(var(--acent-color)) !important;
+  /* Barra lateral */
+  --navbar-background: white !important;
+  --navbar-border: white !important;
+  --unread-marker-background: rgb(var(--acent-color)) !important;
+  --panel-header-icon: rgb(var(--acent-color)) !important;
+  --menu-bar-item-background-active: rgba(0, 0, 0, 0.1) !important;
+  --unread-marker-text: white !important;
+  --tooltip-background: rgb(var(--acent-color)) !important;
+  --tooltip-text: white !important;
+  /* Seccion de chats */
+  /* Header */
+  --background-default: white !important;
+  --background-default-hover: rgba(0, 0, 0, 0.1) !important;
+  --background-default-active: rgba(0, 0, 0, 0.1) !important;
+  --conversation-header-border: white !important;
+  --primary-strong: rgb(var(--acent-color)) !important;
+  /* Busqueda*/
+  --search-input-container-background: white !important;
+  --search-input-container-background-active: white !important;
+  --search-input-background: white !important;
+  --icon-search-back: rgb(var(--acent-color)) !important;
+  --teal: rgb(var(--acent-color)) !important;
+  --primary-strongest: rgb(var(--acent-color)) !important;
+  --highlight: rgb(var(--acent-color)) !important;
+  --chat-meta: rgb(var(--acent-color)) !important;
+  --unread-timestamp: rgb(var(--acent-color)) !important;
+  /* Filtros*/
+  --filters-container-background: white !important;
+  --filters-item-active-background: rgb(var(--acent-color)) !important;
+  --filters-item-active-color: white !important;
+  --filters-item-background: white !important;
+  --filters-item-color: rgb(var(--acent-color)) !important;
+  --filters-item-background-hover: rgba(0, 0, 0, 0.1) !important;
+  --filters-item-color: rgb(var(--acent-color)) !important;
+  /*Chat*/
+
+  /*Header*/
+  --panel-header-background: white !important;
+  /* Body */
+
+  /*Color Barra de editar fuente*/
+  --input-floating-toolbar-background: rgb(255, 255, 255) !important;
+  /*Dia del mensaje*/
+  --system-message-background: #ffffff !important;
+  --system-message-text: rgb(var(--acent-color)) !important;
+  /*Barra de mensajes no leidos*/
+  --unread-bar-background: rgba(var(--acent-color), 0.2) !important;
+  --unread-background: rgb(var(--acent-color)) !important;
+  /*Mensajes enviados*/
+  --outgoing-background: white !important;
+  --message-primary: rgb(var(--acent-color)) !important;
+  --outgoing-background-deeper: rgb(var(--acent-color)) !important;
+  --poll-checkmark-sender: black !important;
+  /*Mensajes recibidos*/
+  --incoming-background: white !important;
+  --incoming-background-deeper: rgb(var(--acent-color)) !important;
+  /*Contacto compartido*/
+  --border-bubble: rgb(var(--acent-color)) !important;
+  --primary-stronger: rgb(var(--acent-color)) !important;
+  --button-alternative: rgb(var(--acent-color)) !important;
+  /* Input */
+  --rich-text-panel-background: white !important;
+  --compose-input-background: white !important;
+  --compose-input-border: rgb(var(--acent-color)) !important;
+  --wds-teal-500: rgb(var(--acent-color)) !important;
+  /*Ventana de información de contacto*/
+
+  /*panel de emojis*/
+  --reactions-panel-background-color: white !important;
+  --expressions-panel-active-icon-tab-background: rgb(var(--acent-color)) !important;
+  --active-tab-marker: rgb(var(--acent-color)) !important;
+  --sticker-button-background: rgb(var(--acent-color)) !important;
+  --secondary: rgb(var(--acent-color)) !important;
+  --primary-strong-rgb: var(--acent-color) !important;
+
+  /* Iconos de la aplicacion*/
+  --icon-bright-highlight: rgb(var(--acent-color)) !important;
+  /*Menu desplegable*/
+  --dropdown-background: rgb(255, 255, 255) !important;
+  --dropdown-background-hover: rgba(0, 0, 0, 0.1) !important;
+}
